@@ -16,9 +16,9 @@ public class RomanNumberConverterTest{
 
   @Test
   public void check() {
-    assertThat(test.convert(10))
+    assertThat(test.convert(1))
       .isNotEmpty()
-      .isEqualTo("X");
+      .isEqualTo("I");
   }
 
   @Test
